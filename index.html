@@ -87,6 +87,22 @@ layout: default
     </div>
 </div>
 
+<div class="section" id="html-lang">
+    <div class="col">
+        <h3>語言屬性</h3>
+        <p>引用自 HTML5 規格:</p>
+        <blockquote>
+            <p>鼓勵作者指定根 HTML 元素的 lang
+            屬性，給予文件使用的語言。這有助於語音合成工具判定要使用的發音以及翻譯工具判斷使用的規則等等。</p>
+        </blockquote>
+        <p><a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">深入閱讀規格裡的 lang 屬性</a>.</p>
+        <p>zh-Hant-TW 係根據目前的規範依照「<a href="http://www.rfc-editor.org/rfc/rfc5646.txt">RFC 5646 Tags for Identifying Languages</a>」</p>
+    </div>
+    <div class="col">
+        {% highlight html %}{% include html/lang.html %}{% endhighlight %}
+    </div>
+</div>
+
 <div class="section" id="html-ie-compatibility-mode">
     <div class="col">
         <h3>IE 相容性模式</h3>
