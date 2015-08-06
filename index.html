@@ -87,6 +87,20 @@ layout: default
     </div>
 </div>
 
+<div class="section" id="html-ie-compatibility-mode">
+    <div class="col">
+        <h3>IE 相容性模式</h3>
+        <p>IE 支援使用 <code>&lt;meta&gt;</code> 標籤來指定 IE 是否應該呈現指定的版本。除非另有其他考量，否則它是最實用指定
+        IE 瀏覽器使用最新模式 <strong>edge mode</strong> 的方法</p>
+        <p>深入閱讀請查閱 stackoverflow 的討論 <a
+            href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">What's
+            the difference if &lt;meta http-equiv=“X-UA-Compatible” content=“IE=edge”&gt; exists or not?</a>.</p>
+    </div>
+    <div class="col">
+        {% highlight html %}{% include html/ie-compatibility-mode.html %}{% endhighlight %}
+    </div>
+</div>
+
 <div class="section" id="html-encoding">
     <div class="col">
         <h3>字元編碼</h3>
