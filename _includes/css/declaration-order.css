@@ -12,6 +12,7 @@
     float: right;
     width: 100px;
     height: 100px;
+    border: 1px solid #e5e5e5;
 
     /* Typography */
     font: normal 13px "Helvetica Neue", sans-serif;
@@ -21,7 +22,6 @@
 
     /* Visual */
     background-color: #f5f5f5;
-    border: 1px solid #e5e5e5;
     border-radius: 3px;
 
     /* Misc */
