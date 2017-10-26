@@ -48,6 +48,7 @@ layout: default
         <h4><a href="#bestpratices">最佳實踐</a></h4>
         <ul>
             <li><a href="#best-pratices-images">Images</a></li>
+            <li><a href="#best-pratices-javascript">JavaScript</a></li>
         </ul>
     </div>
     <div class="col">
@@ -460,6 +461,21 @@ layout: default
                 href="https://axesslab.com/alt-texts/">Alt-texts: The Ultimate Guide</a> 替代文字撰寫指南</li>
             <li>若頁面會載入許多圖片，建議加上 Lazy loading 機制，節省不必要的流量開銷以及改善閱讀體驗</li>
         </ul>
+    </div>
+</div>
+
+<div class="section" id="best-pratices-javascript">
+    <div class="col">
+        <h3>JavaScript</h3>
+        <p>V8 6.0 引擎的新架構 TurboFan 對 ES2015 的語法有更好的效能</p>
+        <ul>
+            <li>使用明確的物件比較，在 V8 6 引擎平均增快 15%</li>
+            <li>使用 ES2015 的其餘參數 (Rest parameters) 特性，相較於舊式語法實作等效功能，平均增快 4.5 倍</li>
+        </ul>
+    </div>
+    <div class="col">
+        {% highlight javascript %}{% include javascript/best-pratices-compare-with-undefined.js %}{% endhighlight %}
+        {% highlight javascript %}{% include javascript/best-pratices-rest-parameters.js %}{% endhighlight %}
     </div>
 </div>
 
