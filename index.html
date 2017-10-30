@@ -474,7 +474,7 @@ layout: default
             <li>使用 ES2015 的其餘參數 (Rest parameters) 特性，相較於舊式語法實作等效功能，平均增快 4.5 倍</li>
             <li>為防止外部 JavaScript 堵塞關鍵渲染路徑，請使用 defer 屬性延後剖析執行 JavaScript，或採用 async
             非同步載入，如果載入的外部 JS 具有相依性 (例如需要 jQuery)，請務必確認正確的順序載入。 <a href="https://developers.google.com/speed/docs/insights/BlockingJS">[參考閱讀]</a></li>
-            <li>避免使用 document.write() ，會導致堵塞關鍵渲染路徑，Chrome 在緩慢的網路連線環境下會封鎖此類連線之載入
+            <li>避免使用 document.write() 載入外部 script，會導致堵塞關鍵渲染路徑，Chrome 在緩慢的網路連線環境下會封鎖此類連線之載入
             <a href="https://developers.google.com/web/updates/2016/08/removing-document-write">[資料來源]</a></li>
         </ul>
     </div>
