@@ -454,7 +454,8 @@ layout: default
         <ul>
             <li>把圖片 commit 進 repository 之前，應確實進行壓縮作業，推薦使用 <a
                 href="https://imageoptim.com/">ImageOptim</a>、<a
-                href="https://github.com/imagemin/imagemin">Imagemin</a> 等工具</li>
+                href="https://github.com/imagemin/imagemin">Imagemin</a> 等工具；SVG 使用<a
+                href="https://jakearchibald.github.io/svgomg/">SVGOMG</a></li>
             <li>多張零碎的小圖可以合併成 sprite (雪碧圖) ，若專案基礎建設支援 HTTP/2 則免</li>
             <li>img 標籤指定 width 與 height 屬性避免瀏覽器載入圖片完成後才進行 layout 造成內容抖動影響體驗</li>
             <li>圖片應有 alt 屬性描述其意義，純裝飾圖可填入空字串或是適合的符號，推薦閱讀 <a
