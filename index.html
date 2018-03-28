@@ -40,6 +40,7 @@ layout: default
             <li><a href="#css-selectors">選擇器</a></li>
             <li><a href="#css-organization">組織</a></li>
             <li><a href="#css-zindex-order">z-index 管理</a></li>
+            <li><a href="#css-font">font-family 中文字型</a></li>
         </ul>
     </div>
 </div>
@@ -441,6 +442,16 @@ layout: default
             基本 <code>z-index</code> = order 數字 * 1000，<br>
             <strong>有異動需更新文件</strong>。
         </p>
+    </div>
+</div>
+
+<div class="section" id="css-font">
+    <div class="col">
+        <h3>font-family 中文字型</h3>
+        <p>使用英文字元，避免 bundle 的結果不會被 encode 錯誤。</p>
+    </div>
+    <div class="col">
+        {% highlight css %}{% include css/font.css %}{% endhighlight %}
     </div>
 </div>
 

@@ -1,0 +1,7 @@
+.selector {
+	/* 可能造成 encode 錯誤 */
+	font-family: "微軟正黑體", Helvetica, Verdana, sans-serif;
+	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, Helvetica, Verdana, sans-serif;
+	/* 建議的寫法 */
+	font-family: "Microsoft JhengHei", Helvetica, Verdana, sans-serif;
+}
