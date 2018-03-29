@@ -448,7 +448,12 @@ layout: default
 <div class="section" id="css-font">
     <div class="col">
         <h3>font-family 中文字型</h3>
-        <p>使用英文字元，避免 bundle 的結果不會被 encode 錯誤。</p>
+        <p>使用 webpack v1.10.1 uglify 或是 css-loader v0.28.7 minimize, 中文字元後會多一個 \(比如：
+            <code>\5FAE\8EDF\6B63\9ED1\9AD4</code>
+            變成
+            <code>\\5FAE\8EDF\6B63\9ED1\9AD4</code>。
+        </p>
+        <p>因此只使用英文字體名稱，並且在字型名稱中有空格時加上雙引號，避免 bundle 的結果 encode 錯誤。</p>
     </div>
     <div class="col">
         {% highlight css %}{% include css/font.css %}{% endhighlight %}
