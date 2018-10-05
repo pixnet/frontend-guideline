@@ -282,13 +282,25 @@ layout: default
         <h3>宣告順序</h3>
         <p>相關的屬性宣告應以下列順序分組：</p>
         <ol>
+            <li>Content</li>
             <li>Positioning</li>
-            <li>Box Model</li>
-            <li>Typographic</li>
+            <li>顯示 & Box Model</li>
+            <li>Typography</li>
             <li>Visual</li>
+            <li>Misc</li>
+            <li>Animation</li>
         </ol>
-        <p>Positioning，與位置有關的宣告放最前面，因為這可以從正常文件順序裡移除元素，或是覆寫牽扯到 Box Model 的樣式。Box Model 放下一個。因為它決定元件的位置與尺寸。</p>
-        <p>其它只在元件<strong>內部</strong>起作用的屬性放最後，因為這不會影響前兩者。</p>
+        <p>Content: 內容本身最重要，需定義在最前面較清楚(例如：偽元素內容)。</p>
+        <p>Positioning: 可以從正常文件順序裡移除元素(out of flow)的位置宣告，或是覆寫牽扯到 Box Model 的樣式。</p>
+        <p>顯示 & Box Model: 決定元件的位置與尺寸 或 與 Box Model 相關。</p>
+        <p>其它只在元件<strong>內部</strong>起作用的屬性放後面，因為這不會影響前面。</p>
+        <p>Animation: 動畫因為較不影響排版，所以放最後。</p>
+        <h3>宣告原則</h3>
+        <ol>
+            <li>重要性或影響性高的屬性放前面，例如：Positioning 區塊 放 Box Model 區塊前面。</li>
+            <li>相依性的屬性要排序，例如：position 放 top 前面。</li>
+            <li>相關性高的放一起，例如：flex 相關屬性。</li>
+        </ol>
         <p>關於屬性順序的完整列表，請參考 <a href="http://twitter.github.com/recess">Recess</a>、<a href="https://github.com/necolas/idiomatic-css#declaration-order">idiomatic-css #declaration-order</a>。</p>
     </div>
     <div class="col">
