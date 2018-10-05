@@ -1,31 +1,58 @@
 .declaration-order {
-    /* Positioning */
+    /* 元素內容 Content */
+    content: ".";
+
+    /* 位置 Positioning */
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 100;
-
-    /* Box-model */
-    display: block;
+    z-index: 2;
     float: right;
+
+    /* 顯示 & Box Model */
+    display: block;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
     width: 100px;
     height: 100px;
     border: 1px solid #e5e5e5;
     margin: 10px;
     padding: 10px;
+    vertical-align: middle;
 
-    /* Typography */
+    /* 文字樣式 Typography */
     font: normal 13px "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
     line-height: 1.5;
+    letter-spacing: 2px;
     color: #333;
     text-align: center;
+    text-overflow: ellipsis;
 
-    /* Visual */
+    /* 可視化 Visual */
     background-color: #f5f5f5;
+    background-image: url(#{$pixgame-url}/img/icon-flash.svg);
     border-radius: 3px;
+    border-collapse: collapse;
+    box-shadow:  0 1px 3px 0 #222;
 
-    /* Misc */
+    /* 其他雜項 Misc */
     opacity: 1;
+    visibility: visible;
+    white-space: nowrap;
+
+    /* 動畫效果 Animation */
+    animation-name: hiddenTip;
+    animation-duration: .5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transform: translateY(10px);
+    transition: opacity .3s;
 }
