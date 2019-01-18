@@ -41,6 +41,7 @@ layout: default
             <li><a href="#css-organization">組織</a></li>
             <li><a href="#css-zindex-order">z-index 管理</a></li>
             <li><a href="#css-font">font-family 中文字型</a></li>
+            <li><a href="#css-keyframes">@keyframes 管理</a></li>
         </ul>
     </div>
 </div>
@@ -471,6 +472,21 @@ layout: default
     </div>
     <div class="col">
         {% highlight css %}{% include css/font.css %}{% endhighlight %}
+    </div>
+</div>
+
+<div class="section" id="css-keyframes">
+    <div class="col">
+        <h3>@keyframes 管理</h3>
+        <p>若專案上有使用到cssnano，在使用css Animation的@keyframes時cssnano會自動將@keyframes的名稱重新命名，並依照字母順序排列(如右側範例)。</p>
+        <p>為了避免不同專案的@keyframes命名衝突，請於：</p>
+        <ul>
+            <li>設定檔內設定 <code>{ reduceIdents: false }</code></li>
+            <li>@keyframes命名時加上專案名稱作為前綴字</li>
+        </ul>
+    </div>
+    <div class="col">
+        {% highlight css %}{% include css/keyframes.css %}{% endhighlight %}
     </div>
 </div>
 

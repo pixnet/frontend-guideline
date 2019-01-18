@@ -1,0 +1,26 @@
+/* reduceIdents */
+/* before */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.box {
+    animation-name: fadeOut;
+}
+
+/* after */
+@keyframes a {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.box {
+    animation-name: a;
+}
