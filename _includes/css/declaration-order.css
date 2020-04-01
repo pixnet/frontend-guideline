@@ -1,58 +1,29 @@
 .declaration-order {
-    /* 元素內容 Content */
-    content: ".";
-
-    /* 位置 Positioning */
+    /* Positionnement */
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 2;
-    float: right;
-
-    /* 顯示 & Box Model */
+    z-index: 100;
+  
+    /* Modèle de boîte */
     display: block;
-    flex-direction: column;
-    flex-grow: 1;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    box-sizing: border-box;
+    float: right;
     width: 100px;
     height: 100px;
-    border: 1px solid #e5e5e5;
-    margin: 10px;
-    padding: 10px;
-    vertical-align: middle;
-
-    /* 文字樣式 Typography */
+  
+    /* Typographie */
     font: normal 13px "Helvetica Neue", sans-serif;
-    font-weight: 600;
-    font-size: 12px;
     line-height: 1.5;
-    letter-spacing: 2px;
     color: #333;
     text-align: center;
-    text-overflow: ellipsis;
-
-    /* 可視化 Visual */
+  
+    /* Visuel */
     background-color: #f5f5f5;
-    background-image: url(/img/icon-flash.svg);
+    border: 1px solid #e5e5e5;
     border-radius: 3px;
-    border-collapse: collapse;
-    box-shadow:  0 1px 3px 0 #222;
-
-    /* 其他雜項 Misc */
+  
+    /* Divers */
     opacity: 1;
-    visibility: visible;
-    white-space: nowrap;
-
-    /* 動畫效果 Animation */
-    animation-name: hiddenTip;
-    animation-duration: .5s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    transform: translateY(10px);
-    transition: opacity .3s;
-}
+  }
