@@ -1,9 +1,9 @@
-// Without nesting
+// Sans imbrication
 .table > thead > tr > th { … }
 .table > thead > tr > td { … }
 
-// With nesting
+// Avec imbrication
 .table > thead > tr {
-    > th { … }
-    > td { … }
+  > th { … }
+  > td { … }
 }
