@@ -2,24 +2,28 @@ forked from [JuanitoFatas/code-guide](https://github.com/JuanitoFatas/code-guide
 
 # Code Guide
 
-Code Guide is a project for documenting standards for developing flexible, durable, and sustainable HTML and CSS. It comes from years of experience writing code on projects of all sizes. It's not the end-all be-all, but it's a start.
+Le Guide de Code est un projet de documentation de standards pour développer
+des fichiers HTML et CSS flexibles, durables et maintenables. Il provient
+d'années d'expérience à écrire du code pour des projets de toute taille. Ce
+n'est pas encore parfait, mais c'est un bon début.
 
-**[Start reading ☞](http://pixnet.github.io/frontend-guideline)**
+**[Commencer la lecture ☞](http://pixnet.github.io/frontend-guideline)**
 
 ---
 
 ### License
 
-Released under MIT by, and copyright 2014, @mdo.
+Paru sous licence MIT par, et copyright 2014, @mdo
 
 ### Thanks
 
-Heavily inspired by [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and the [GitHub Styleguide](http://github.com/styleguide).
+Grandement inspiré par [Idiomatic CSS](https://github.com/necolas/idiomatic-css) et le [GitHub Styleguide](http://github.com/styleguide)
 
 ### Translations
 
-Translations are maintained by their creators and may not always be up to date with the original here.
-
+Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
+à jour avec l'original.
+- [French](https://oliveira-gabriel.github.io/frontend-guideline/) - Translated by [Gabriel Oliveira](https://github.com/oliveira-gabriel)
 - [Portuguese](http://diegoeis.github.io/code-guide/) - Translated by [Diego Eis](http://tableless.com.br/)
 - [Spanish](http://adrianayala.mx/code-guide/es/) - Translated by [Adrian Ayala](http://adrianayala.mx/)
 - [Indonesian](http://diagramatics.github.io/code-guide-id) - Translated by [Steven Sinatra](http://diagramatics.me)
@@ -28,6 +32,7 @@ Translations are maintained by their creators and may not always be up to date w
 - [Russian](http://instanceofpro.github.io/code-guide/) - Translated by [Eugene Abrosimov](https://github.com/instanceofpro)
 - [Czech](http://smedzlatko.github.io/) - Translated by [Martin Myslík](https://github.com/Smedzlatko)
 
-Have a translation you'd like to link to? Open a pull request to add it.
+Vous avez une traduction que vous aimeriez ajouter ? Ouvrez une Pull Request,
+et ajoutez là ici. Assurez-vous de garder l'ordre alphabétique.
 
 <3

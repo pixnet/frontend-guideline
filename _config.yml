@@ -1,6 +1,6 @@
-name:          前端程式碼準則
-description:   開發出靈活、穩定、可持續發展的 HTML 與 CSS 標準。
-url:           http://juanitofatas.github.io/code-guide
+name:          Guide de Code par @mdo
+description:   Standards pour des fichiers HTML et CSS flexibles, durables et maintenables.
+url:           http://pixelastic.github.io/code-guide/
 
 markdown:      rdiscount
 permalink:     pretty
